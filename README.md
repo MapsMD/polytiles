@@ -15,6 +15,13 @@ based on:
 
 ## Carto
 Generate mapnik xml from carto project
+
 ```bash
-carto project.mml > mapsmd.xml
+carto project.mml > ../tiles_gen/mapsmd.xml
+```
+
+## Execute
+
+```bash
+./tiles_gen.py -a -1003 -m MBTILES --name hartamd.mbtiles -z 7 10
 ```

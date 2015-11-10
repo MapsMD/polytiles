@@ -575,7 +575,7 @@ if __name__ == "__main__":
 		apg_output.add_argument('--name', help='name for mbtiles', default='Test MBTiles')
 		apg_output.add_argument('--overlay', action='store_true', help='if this layer is an overlay (for mbtiles metadata)', default=False)
 	apg_output.add_argument('-x', '--export', type=argparse.FileType('w'), metavar='TILES.LST', help='save tile list into file')
-	apg_output.add_argument('-z', '--zooms', type=int, nargs=2, metavar=('ZMIN', 'ZMAX'), help='range of zoom levels to render (default: 6 12)', default=(6, 12))
+	apg_output.add_argument('-z', '--zooms', type=int, nargs=2, metavar=('ZMIN', 'ZMAX'), help='range of zoom levels to render (default: 7 17)', default=(7, 17))
 	apg_other = parser.add_argument_group('Settings')
 	apg_other.add_argument('-s', '--style', help='style file for mapnik (default: {0})'.format(mapfile), default=mapfile)
 	apg_other.add_argument('-f', '--format', default='png256', help='tile image format (default: png256)')
