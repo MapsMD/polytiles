@@ -1,4 +1,4 @@
-# polytiles.py
+# tiles_gen.py
 
 A script to get tiles from mapnik. Area can be defined by bbox, polygon or an OSM polygon; tiles can be served in image files or mbtiles. Run the script without parameters to see command line help.
 
@@ -16,5 +16,5 @@ based on:
 ## Carto
 Generate mapnik xml from carto project
 ```bash
-carto project.mml > mapnik.xml
+carto project.mml > mapsmd.xml
 ```
