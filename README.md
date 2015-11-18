@@ -13,3 +13,8 @@ based on:
 * based on [generate\_tiles\_multiprocess.py](http://svn.openstreetmap.org/applications/rendering/mapnik/generate_tiles_multiprocess.py), licensed WTFPL.
 
 
+## Carto
+Generate mapnik xml from carto project
+```bash
+carto project.mml > mapnik.xml
+```
