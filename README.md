@@ -8,5 +8,8 @@ Mapnik and `python-shapely` package. Optional dependencies are `python-psycopg2`
 
 ## Author and license
 
-Written by Ilya Zverev, based on [generate\_tiles\_multiprocess.py](http://svn.openstreetmap.org/applications/rendering/mapnik/generate_tiles_multiprocess.py), licensed WTFPL.
+based on:
+* script written by Ilya Zverev, [polytiles](https://github.com/zverik/polytiles)
+* based on [generate\_tiles\_multiprocess.py](http://svn.openstreetmap.org/applications/rendering/mapnik/generate_tiles_multiprocess.py), licensed WTFPL.
+
 
