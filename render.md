@@ -5,13 +5,24 @@
 ./tiles_gen.py -a -1003 -z 7 15
 ```
 
-Render Towns and municipality of Chisinau
+##Render Towns and municipality of Chisinau
 
+###Municipiul Chisinau
 ```bash
 ./tiles_gen.py -a -4 -z 16 17
+```
+###Municipiul Balti
+```bash
 ./tiles_gen.py -a -31 -z 16 17
-./tiles_gen.py -a -441 -z 16 17
+```
+###Orasul Ungheni
+```bash
 ./tiles_gen.py -a -484 -z 16 17
+```
+
+
+```bash
+./tiles_gen.py -a -441 -z 16 17
 ./tiles_gen.py -a -477 -z 16 17
 ./tiles_gen.py -a -473 -z 16 17
 ./tiles_gen.py -a -33 -z 16 17
@@ -60,7 +71,7 @@ Render Towns and municipality of Chisinau
 
 
 ## zoom 18-19
-
+###Orasul Chisinau Chisinau
 ```bash
 ./tiles_gen.py -a -32 -z 18 19
 ```
