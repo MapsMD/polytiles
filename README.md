@@ -22,8 +22,8 @@ carto project.mml > ../tiles_gen/mapsmd.xml
 ## create symbolic link
 
 ```bash
-ln -s ../hartamd-carto/symbols/ symbols
-ln -s ../hartamd-carto/data/ data
+ln -s ../mapsmd-carto/symbols/ symbols
+ln -s ../mapsmd-carto/data/ data
 ```
 
 ## Execute
