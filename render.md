@@ -20,6 +20,11 @@
 ./tiles_gen.py -a -484 -z 16 17
 ```
 
+###Orasul Cahul
+```bash
+./tiles_gen.py -a -441 -z 16 17
+```
+
 
 ```bash
 ./tiles_gen.py -a -441 -z 16 17
